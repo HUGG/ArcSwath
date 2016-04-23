@@ -13,7 +13,7 @@
     <Extensions>
         </Extensions>
     <Toolbars>
-        <Toolbar caption="Swath profile" category="ArcSwath" id="SP3_addin.toolbar" showInitially="true"><Items><ComboBox refID="SP3_addin.combobox" /><ComboBox refID="SP3_addin.combobox_4" /><ComboBox refID="SP3_addin.combobox_5" /><ComboBox refID="SP3_addin.combobox_1" /><Tool refID="SP3_addin.tool" /><Tool refID="SP3_addin.tool_1" /><ComboBox refID="SP3_addin.combobox_2" /><ComboBox refID="SP3_addin.combobox_3" /><Button refID="SP3_addin.button" /></Items></Toolbar>
+        <Toolbar caption="ArcSwath" category="ArcSwath" id="SP3_addin.toolbar" showInitially="true"><Items><ComboBox refID="SP3_addin.combobox" /><ComboBox refID="SP3_addin.combobox_4" /><ComboBox refID="SP3_addin.combobox_5" /><ComboBox refID="SP3_addin.combobox_1" /><Tool refID="SP3_addin.tool" /><Tool refID="SP3_addin.tool_1" /><ComboBox refID="SP3_addin.combobox_2" /><ComboBox refID="SP3_addin.combobox_3" /><Button refID="SP3_addin.button" /></Items></Toolbar>
         </Toolbars>
     <Menus>
         </Menus>
