@@ -6,5 +6,6 @@ An efficient swath profile analysis tool for ArcGIS 10.2 and later.
 ## Preparing your data
 
 ## Using ArcSwath
-
+![ArcSwath toolbar] (Images/ArcSwathtoolbar.jpg) <br/>
+*ArcSwath toolbar*
 ## How does ArcSwath work?
