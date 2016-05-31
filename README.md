@@ -30,14 +30,14 @@ An efficient swath profile analysis tool for ArcGIS 10.2 and later.
 ## How does ArcSwath work?
 
 After you click Calculate: <br/>
-1. The script calculates 4 points for a rectangle according to the two points (Point 1 and 2) you clicked and the width you defined. Then it creates a polygon of the points.
-2. The code checks that your input raster is really a raster layer and the same for the input point data.
-3. The code names and defines working directory for the raster layer.
-4. The polygon is used to exract raster layer. Then smaller boxes according to increment are extracted inside the previously extracted raster layer. Minimum, mean and maximum values are the added to arrays and written into a csv file.
-5. Then the plotting for raster file is defined.
-6. First for the point files naming and working directory is defined.
-7. The points are clipped inside the polygon which was created in the end of step 1.
-8. Then the points are calculated to fit a line going trough the points 1 and 2. For each point the distance to the point 1 is calculated and the dataa is written to a csv file.
-9. Plotting for points is defined.
-10. The entire plotting is then defined.
+1. The script calculates 4 points for a rectangle according to the two points (Point 1 and 2) you clicked and the width you defined. Then it creates a polygon of the points. <br/>
+2. The code checks that your input raster is really a raster layer and the same for the input point data. <br/>
+3. The code names and defines working directory for the raster layer. <br/>
+4. The polygon is used to exract raster layer. Then smaller boxes according to increment are extracted inside the previously extracted raster layer. Minimum, mean and maximum values are the added to arrays and written into a csv file. <br/>
+5. Then the plotting for raster file is defined. <br/>
+6. First for the point files naming and working directory is defined. <br/>
+7. The points are clipped inside the polygon which was created in the end of step 1. <br/>
+8. Then the points are calculated to fit a line going trough the points 1 and 2. For each point the distance to the point 1 is calculated and the dataa is written to a csv file. <br/>
+9. Plotting for points is defined. <br/>
+10. The entire plotting is then defined. <br/>
 
