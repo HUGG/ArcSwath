@@ -2,11 +2,17 @@
 An efficient swath profile analysis tool for ArcGIS 10.2 and later.
 
 ## Installation
+### The easy way (try this first)
 
-1. Download the ArcSwath files
-2. Double click on makeaddin.py
-3. Double click on ArcSwath.esriaddin -> click Install Add-In
-4. Create to your C: drive a folder named WorkSpace (This is done for the plotting)
+1. Download the [`ArcSwath Add-In`](ArcSwath-git.esriaddin).
+2. Double click on the `ArcSwath-git.esriaddin` file after it downloads and click **Install Add-In**.
+3. Create a directory `C:\WorkSpace` if it does not already exist. This is needed for plotting to work.
+
+### The slightly harder way (if the easy way doesn't work)
+1. Download all of the ArcSwath files by clicking on the **Clone or download** button on the top right and then **Download ZIP**.
+2. Unzip the files and double click on the `makeaddin.py` file.
+3. Double click on the `ArcSwath-git.esriaddin` file and click **Install Add-In**.
+4. Create a directory `C:\WorkSpace` if it does not already exist. This is needed for plotting to work.
 
 ## Preparing your data
 
