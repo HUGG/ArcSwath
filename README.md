@@ -15,11 +15,12 @@ An efficient swath profile analysis tool for ArcGIS 10.2 and later.
 4. Create a directory `C:\WorkSpace` if it does not already exist. This is needed for plotting to work.
 
 ## Preparing your data
+There are a few data requirements needed for the ArcSwath tool to work properly. To ensure proper functioning of the tool, please make sure your data meet the following criteria:
 
-- UTM coordinates are required for the geometrical calculation that are used in the code.
-- Pixel Type should be signed integer. Conversion can be executed with Int tool in spatial analyst.
-- For some data (SRTM): you may want to convert near sea level values according to the following link: [convert near sea level values] ( http://mappingcenter.esri.com/index.cfm?fa=ask.answers&q=1686.).
-- Follow the noData value - should be defined to something.
+- Point and raster data should be projected in UTM coordinates. This is required for the geometrical calculations that are used in the code.
+- The **Pixel Type** for raster files should be signed integer. Conversion can be done using the **Int** tool in Spatial Analyst.
+- For [SRTM data](http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1) you may want to [process the data to adjust near sea level values](http://mappingcenter.esri.com/index.cfm?fa=ask.answers&q=1686).
+- The noData value for raster data must be defined. If undefined, a value can be set in **ArcCatalog**.
 
 ## Using ArcSwath
 ![ArcSwath toolbar] (Images/ArcSwathtoolbar.JPG) <br/>
